@@ -1,0 +1,159 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+/* ========= Статья =========*/
+img {
+  width: 100%;
+}
+.header-content p,
+.main-content p {
+  text-align: justify;
+}
+.header-image {
+  margin: 0 0 1.5% 0;
+}
+.header-content {
+  margin: 0 0 1.5% 0;
+}
+.header-title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+  padding: 2% 1% 2%;
+  color: #000;
+}
+.header-content .text {
+  margin: 0 0 0 auto;
+}
+.header-text {
+  max-width: 400px;
+  margin: 0 auto 0 0;
+  padding: 10px;
+}
+.header-text span {
+  font-weight: 700;
+  text-decoration: underline;
+  text-shadow: -7px -4px 7px rgba(240, 230, 140, 0.9), 10px -5px 13px rgba(255, 223, 0, 0.6);
+}
+.header-content-image {
+  margin: 0 0 0 auto;
+  max-width: 75%;
+}
+.main-content {
+  margin: 0 0 1.5% 0;
+}
+.content-title {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 700;
+  padding: 2% 1% 2%;
+  text-align: right;
+  color: #000;
+}
+.contetn-subtitle {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 700;
+  padding: 1.5% 0.5% 1.5%;
+  text-align: center;
+  color: gold;
+  text-shadow: -1px -6px 5px rgba(0, 0, 0, 0.7);
+}
+.content-text {
+  padding: 10px;
+}
+
+.content-text.center {
+  max-width: 65%;
+  margin: 0 auto;
+}
+.content-text.left {
+  max-width: 60%;
+  margin: 0 auto 0 0;
+}
+.content-text.right {
+  max-width: 70%;
+  margin: 0 0 0 auto;
+}
+.content-image-center {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.first-book,
+.second-book {
+  height: 350px;
+  overflow: auto;
+}
+.content-text.last {
+  max-height: 75px;
+  overflow: hidden;
+}
+
+.test {
+  text-align: center;
+}
+.test span {
+  font-size: 24px;
+  margin: 50px 0;
+  display: inline-block;
+}
+/* ============= Вёрстка макета =============== */
+.article {
+  max-width: 840px;
+  margin: 10px auto;
+}
+.article-title,
+.article-subtitle,
+.article-comment {
+  color: #1e212c;
+}
+.article-title {
+  margin: 0 0 92px 0;
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 900;
+}
+.article-subtitle,
+.article-comment {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+}
+.article-img {
+  margin: 0 0 60px 0;
+}
+.picture {
+  width: auto;
+}
+.article-subtitle {
+  margin: 0 0 24px 0;
+}
+.indent {
+  padding: 0 0 24px 0;
+}
+.ident1 {
+  margin: 0 0 48px 0;
+}
+.article-comment {
+  margin: 0 0 48px 0;
+  padding: 0 0 0 58px;
+}
+.ident2 {
+  padding: 0 0 12px 0;
+}
+.article-items {
+  margin: 0 0 24px 0;
+}
+.article-items li {
+  padding: 0 4px 0 32px;
+}
